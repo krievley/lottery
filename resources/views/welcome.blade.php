@@ -15,8 +15,6 @@
             });
         </script>
         <script type="text/javascript" src="{{ asset('js/modernizr-2.7.1.js') }}"></script>
-        <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
-        <link rel="apple-touch-icon" href="{{ asset('images/webclip.png') }}">
     </head>
     <body>
         <div class="w-section navbar">
@@ -68,19 +66,14 @@
         <div class="section grey" data-anchor="slide1">
             <div class="w-container">
                 <h2 class="grey-heading">Morning Lottery</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Suspendisse varius enim in eros elementum tristique. 
-                    Duis cursus, mi quis viverra ornare
-                </p>
+                <p>This lottery is open from 5:00am to 5:00pm.</p>
                 <img class="infinite" src="{{ asset('images/infinite-loop.svg') }}" width="187">
             </div>
         </div>
         <div class="section">
             <div class="w-container">
                 <h2 class="grey-heading">Evening Lottery</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Suspendisse varius enim in eros elementum tristique.&nbsp;
-                </p>
+                <p>This lottery is open from 5:00pm to 5:00am.&nbsp;</p>
                 <div>
                     <img class="phone-image" src="{{ asset('images/infinite-loop.svg') }}">
                 </div>
